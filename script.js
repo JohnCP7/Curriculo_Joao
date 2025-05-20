@@ -1,3 +1,3 @@
-function agradecer() {
-  alert("Obrigado por visitar meu currículo!");
+function direcionar() {
+  window.open("https://www.linkedin.com/in/jo%C3%A3o-carlos-predebon/", "_blank");
 }
