@@ -1,19 +1,22 @@
+/* estilo geral da página */
 body {
   font-family: Arial, sans-serif;
-  background-color: #343a40; /* cinza escuro */
-  color: #ffffff; /* texto branco */
+  background-color: #343a40;
+  color: #ffffff;
   margin: 0;
   padding: 0;
 }
 
-/* Limita largura e centraliza */
+/* container centralizado */
 .container {
   max-width: 900px;
   margin: 0 auto;
+  /* padding lateral pode ser ajustado depois se quiser */
 }
 
+/* estilização dos links */
 a {
-  color: #0d6efd; /* azul Bootstrap para links */
+  color: #0d6efd; /* azul Bootstrap */
   text-decoration: none;
 }
 a:hover {
@@ -23,8 +26,16 @@ a:hover {
 ul {
   list-style: none;
   padding-left: 0;
+  /* talvez adicionar espaço entre itens */
 }
 
 footer {
   margin-top: 30px;
+}
+
+/* classe que talvez seja usada depois */
+.teste-visual {
+  border: 1px dashed #ccc;
+  padding: 10px;
+  /* não utilizada ainda */
 }
